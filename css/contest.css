@@ -19,19 +19,15 @@ div.contest {
 p {
     padding-left: 45px;
     padding-right: 45px;
-    font-size: 1.5vw;
     color: #202020;
 }
 ul {
     padding-left: 65px;
     padding-right: 45px;
-    font-size: 1.5vw;
-    color: #202020;
 }
 ol {
     padding-left: 65px;
     padding-right: 45px;
-    font-size: 1.5vw;
     color: #202020;
 }
 
@@ -43,7 +39,6 @@ h1 {
 }
 
 h2 {
-    font-size: 5.5vh;
     color: rgb(0, 192, 125);
     padding-bottom: 15px;
 }
@@ -51,7 +46,6 @@ h2 {
 h3 {
     padding-left: 25px;
     padding-right: 45px;
-    font-size: 4vb;
     color: rgb(0, 192, 125);
     padding-bottom: 5px;
     padding-top: 10px;

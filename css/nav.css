@@ -118,6 +118,26 @@
       margin-right: auto;
       padding-right: 131px !important;
     }
+
+    h2 {
+      font-size: 5.5vh;
+    }
+
+    h3 {
+      font-size: 5vh;
+    }
+
+    p {
+      font-size: 1.8vw;
+    }
+
+    ul {
+      font-size: 1.8vw; 
+    }
+
+    ol {
+      font-size: 1.8vw; 
+    }
   }
   
   /* 手机 */
@@ -150,19 +170,19 @@
       font-size: 70px !important;
     }
     h2 {
-      font-size: 2.5vh;
+      font-size: 3.5vh;
     }
     h3 {
       font-size: 3vh;
     }
     p {
-      font-size: 3.5vh;
+      font-size: 2.5vh;
     }
     ol {
-      font-size: 1.5vh;
+      font-size: 4.5vh;
     }
     ul {
-      font-size: 1.5vh;
+      font-size: 2.5vh;
     }
   }
   
