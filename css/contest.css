@@ -1,0 +1,115 @@
+/* 总样式 */
+div.contest {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#divider {
+    text-align: center;
+    width: 100%;
+    height: 120px; 
+    background-color: #fff;
+    margin-top: 100px;
+    z-index: 0;
+}
+
+/* text文字内容放大 */
+p {
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 1.5vw;
+    color: #202020;
+}
+ul {
+    padding-left: 65px;
+    padding-right: 45px;
+    font-size: 1.5vw;
+    color: #202020;
+}
+ol {
+    padding-left: 65px;
+    padding-right: 45px;
+    font-size: 1.5vw;
+    color: #202020;
+}
+
+/* title 样式 */
+h1 {
+    text-align: center;
+    font-size: 8vw;
+    color: rgb(0, 192, 125);
+}
+
+h2 {
+    font-size: 5.5vh;
+    color: rgb(0, 192, 125);
+    padding-bottom: 15px;
+}
+
+h3 {
+    padding-left: 25px;
+    padding-right: 45px;
+    font-size: 4vb;
+    color: rgb(0, 192, 125);
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.kongbai-1 {
+    width: 300px;
+    background-color: #fff;
+    z-index: 0;
+}
+
+div.kongbai-2 {
+    width: 300px;
+    height: 110px;
+    background-color: #fff;
+    z-index: 0;
+}
+
+/* 更多精彩 p标签 */
+#more-things {
+    text-align: center;
+}
+
+/* 更多精彩 a标签 */
+#more-a {
+    color: #3e3e3e;
+    font-size: 2.5vw;
+    z-index: 1;
+    text-decoration: none; 
+    color: rgb(0, 192, 125); 
+    background-color: rgba(0, 192, 125, 0.2);
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    transition: background-color .15s, box-shadow .15s; /* 将阴影和背景颜色的过渡时间设置为相同的值 */
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: inherit;
+}
+#more-a:hover {
+    cursor: pointer;
+    color: #3e3e3e;
+    background-color: rgb(0, 250, 162);
+    background-size: 400%;
+    box-shadow: 0 0 5px rgb(0, 250, 162);
+    z-index: 1;
+}
+#more-a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    filter: blur(0px);
+    z-index: -1;
+    opacity: 1;
+    border-radius: 15px;
+    transition: .1s; /* 将阴影的过渡时间设置为相同的值 */
+}
