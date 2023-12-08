@@ -14,11 +14,10 @@ div.contest {
     margin-top: 100px;
     z-index: 0;
 }
-
 /* text文字内容放大 */
 p {
-    padding-left: 45px;
-    padding-right: 45px;
+    /* padding-left: 45px; */
+    /* padding-right: 45px; */
     color: #202020;
 }
 ul {
@@ -52,13 +51,13 @@ h3 {
 }
 
 .kongbai-1 {
-    width: 300px;
+    width: 0px;
     background-color: #fff;
     z-index: 0;
 }
 
 div.kongbai-2 {
-    width: 300px;
+    width: 0px;
     height: 110px;
     background-color: #fff;
     z-index: 0;
