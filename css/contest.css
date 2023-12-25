@@ -106,3 +106,14 @@ div.kongbai-2 {
     border-radius: 15px;
     transition: .1s; /* 将阴影的过渡时间设置为相同的值 */
 }
+
+.video {
+    text-align: center;
+}
+
+#clothing-video {
+    padding-left: auto;
+    padding-right: auto;
+    height: auto;
+    width: 40%;
+}
