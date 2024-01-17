@@ -138,6 +138,10 @@
     ol {
       font-size: 1.8vw; 
     }
+    #jg {
+      width: 24%;
+      height: 22%;
+    }
   }
   
   /* 手机 */
@@ -183,6 +187,13 @@
     }
     ul {
       font-size: 2.5vh;
+    }
+    #aaa {
+      width: 5vw;
+    }
+    #jg {
+      width: 100%;
+      height: auto;
     }
   }
   
