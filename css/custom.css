@@ -5,12 +5,12 @@
 
 /* 字体 */
 @font-face {
-  font-family: "deh";
-  src: url("https://download.tooc.xlj0.com/uploads/103/deh.otf") format('opentype');
+  font-family: "SmileySans-Oblique";
+  src: url(source/SmileySans-Oblique.otf) format('opentype');
 }
 
 body {
-  font-family: deh, Arial, sans-serif;
+  font-family: sans-serif;
   margin: 0;
   padding-top: 85px;
   padding-bottom: 20px;

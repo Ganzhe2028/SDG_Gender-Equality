@@ -1,7 +1,7 @@
 /* 总样式 */
 div.contest {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -35,11 +35,13 @@ h1 {
     text-align: center;
     font-size: 8vw;
     color: rgb(0, 192, 125);
+    font-family: SmileySans-Oblique
 }
 
 h2 {
     color: rgb(0, 192, 125);
     padding-bottom: 15px;
+    font-family: SmileySans-Oblique
 }
 
 h3 {
@@ -48,6 +50,7 @@ h3 {
     color: rgb(0, 192, 125);
     padding-bottom: 5px;
     padding-top: 10px;
+    font-family: SmileySans-Oblique
 }
 
 .kongbai-1 {
